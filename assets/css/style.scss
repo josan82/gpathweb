@@ -77,13 +77,6 @@ $section-headings-color: #f0810f;
 }
 .dropdown-child {
     display: none;
-    color: rgba(255, 255, 255, 0.7);
-    border-color: rgba(255, 255, 255, 0.2);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 0.3rem;
-    text-decoration: none;
-    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
 .dropdown-child a {
     color: rgba(255, 255, 255, 0.7);
