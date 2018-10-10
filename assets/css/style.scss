@@ -45,6 +45,12 @@ $section-headings-color: #eb8a44;
   position:relative;
 }
 
+.page-header ul li
+{
+  position:relative;
+  float:left;
+}
+
 .page-header ul ul
 {
   display:none;
