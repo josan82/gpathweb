@@ -47,8 +47,8 @@ $section-headings-color: #eb8a44;
 
 .page-header ul li
 {
-  position:relative;
-  float:left;
+  display: inline-block;
+  margin-bottom: 1rem;
 }
 
 .page-header ul ul
