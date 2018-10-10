@@ -38,6 +38,23 @@ $section-headings-color: #eb8a44;
   }
 }
 
+.page-header ul
+{
+  list-style:none;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0
+}
+
+.page-header ul li
+{
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0
+}
+
 .page-header ul ul
 {
   display:none;
