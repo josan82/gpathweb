@@ -1,8 +1,8 @@
 ---
 ---
 
-@import "{{ site.theme }}";
 @import "variables";
+@import "{{ site.theme }}";
 
 .page-header {
   color: $header-heading-color;
