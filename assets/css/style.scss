@@ -9,6 +9,7 @@ $header-bg-color-secondary: #223344;
   text-align: center;
   background-color: $header-bg-color;
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  border-bottom: 4 vh solid black;
 
   @include large {
     padding: 4rem 5rem;
