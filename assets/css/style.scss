@@ -97,21 +97,6 @@ $section-headings-color: #eb8a44;
     background-color: rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.3);
   }
-  @include medium {
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
-  }
-}
-.page-header ul ul li:active
-{
-  @include small {
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
-  }
 }
 //links
 .page-header ul ul a
@@ -125,15 +110,7 @@ $section-headings-color: #eb8a44;
 //Show dropdown on hover
 .page-header ul li:hover ul
 {
-  @include large { 
-    display: block;
-  }
-  @include medium {
-    display: block;
-  }
-}
-.page-header ul li:active ul
-{
+  display: block;
   @include small {
     position: static;
     display: block;
