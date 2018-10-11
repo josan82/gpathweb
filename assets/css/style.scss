@@ -72,11 +72,6 @@ $section-headings-color: #eb8a44;
   position:absolute;
   top:100%;
   padding:0;
-  @include small {
-    position: static;
-    display: block;
-    width: 100%;
-  }
 }
 //Elements of each menu btn
 .page-header ul ul li
@@ -105,15 +100,16 @@ $section-headings-color: #eb8a44;
   min-width: 200px;
   text-decoration: none;
   padding: 2px 15px;
-  @include small {
-    width: 100%;
-    font-size: 0.9rem;
-  }
 }
 //Show dropdown on hover
 .page-header ul li:hover ul
 {
   display:block;
+  @include small {
+    position: static;
+    display: block;
+    width: 100%;
+  }
 }
 .page-header ul ul ul
 {
