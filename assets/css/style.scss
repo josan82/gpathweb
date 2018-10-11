@@ -34,7 +34,7 @@ $section-headings-color: #1e392a; //#eb8a44;
   position:relative;
   
   @include small {
-    position: static;
+    //position: static;
     display: block;
     width: 100%;
   }
@@ -107,7 +107,6 @@ $section-headings-color: #1e392a; //#eb8a44;
   width: auto;
   min-width: 200px;
   text-decoration: none;
-  //padding: 2px 15px;
 }
 //Show dropdown on hover
 .page-header ul li:hover ul
