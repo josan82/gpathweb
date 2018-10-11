@@ -89,7 +89,8 @@ $section-headings-color: #eb8a44;
     border-width: 1px;
   }
 }
-.page-header ul ul li:hover 
+.page-header ul ul li:
+
 {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
@@ -108,7 +109,12 @@ $section-headings-color: #eb8a44;
 //Show dropdown on hover
 .page-header ul li:hover ul
 {
-  display:block;
+  @include large { 
+    display: block;
+  }
+  @include medium {
+    display: block;
+  }
   @include small {
     position: static;
     display: block;
