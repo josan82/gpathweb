@@ -18,7 +18,8 @@ $section-headings-color: #eb8a44;
 
 @import "{{ site.theme }}";
 
-.page-header {
+.page-header 
+{
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
@@ -37,19 +38,23 @@ $section-headings-color: #eb8a44;
     padding: 1.5rem 1rem;
   }
 }
-
+.btn 
+{
+  color: #eb8a44;
+}
+ 
 //Menu
 .page-header ul
 {
   list-style: none;
-  margin-bottom: 1rem;
+  //margin-bottom: 1rem;
   position:relative;
 }
 //List of btns
 .page-header ul li
 {
   display: inline-block;
-  margin-bottom: 1rem;
+  //margin-bottom: 1rem;
 }
 //Dropdown menus
 .page-header ul ul
@@ -70,12 +75,14 @@ $section-headings-color: #eb8a44;
 {
   display: block;
   float: none;
+  min-width: 200px;
 }
 .page-header ul ul a
 {
+  color: #eb8a44;
   width: auto;
   min-width: 200px;
-  padding: 0 20px;
+  padding: 10px 15px;
 }
  .page-header ul ul a:hover {
     color: rgba(255, 255, 255, 0.8);
