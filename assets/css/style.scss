@@ -72,6 +72,11 @@ $section-headings-color: #eb8a44;
   position:absolute;
   top:100%;
   padding:0;
+  @include small {
+    position: static;
+    display: block;
+    width: 100%;
+  }
 }
 //Elements of each menu btn
 .page-header ul ul li
