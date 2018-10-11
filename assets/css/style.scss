@@ -38,14 +38,6 @@ $section-headings-color: #eb8a44;
     padding: 1.5rem 1rem;
   }
 }
-.btn 
-{
-  color: #eb8a44;
-}
-.btn:hover
-{
-  color: #eb8a44;
-}
 //Menu
 .page-header ul
 {
@@ -78,29 +70,25 @@ $section-headings-color: #eb8a44;
   display: block;
   float: none;
   min-width: 200px;
+  text-align: left;
+}
+.page-header ul ul li:hover 
+{
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
 }
 //links
 .page-header ul ul a
 {
-  color: #eb8a44;
+  color: rgba(255, 255, 255, 0.7);
   width: auto;
-  text-align: left;
   min-width: 200px;
   text-decoration: none;
   padding: 2px 15px;
 }
- .page-header ul ul li:hover {
-    color: #eb8a44;
-    text-decoration: none;
-    text-align: left;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
-}
-.page-header ul ul ul
-{
-  top:0;
-  left:100%;
-}
+//Show dropdown on hover
 .page-header ul li:hover ul
 {
   display:block;
