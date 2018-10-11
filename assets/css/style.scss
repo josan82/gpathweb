@@ -44,12 +44,23 @@ $section-headings-color: #eb8a44;
   list-style: none;
   //margin-bottom: 1rem;
   position:relative;
+  
+  @include small {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
 }
 //List of btns
 .page-header ul li
 {
   display: inline-block;
-  //margin-bottom: 1rem;
+  @include small {
+    display: block;
+    width: 100%;
+    font-size: 0.9rem;
+  }
 }
 //Dropdown menus
 .page-header ul ul
@@ -71,6 +82,11 @@ $section-headings-color: #eb8a44;
   float: none;
   min-width: 200px;
   text-align: left;
+  @include small {
+    display: block;
+    width: 100%;
+    font-size: 0.9rem;
+  }
 }
 .page-header ul ul li:hover 
 {
@@ -87,6 +103,11 @@ $section-headings-color: #eb8a44;
   min-width: 200px;
   text-decoration: none;
   padding: 2px 15px;
+  @include small {
+    display: block;
+    width: 100%;
+    font-size: 0.9rem;
+  }
 }
 //Show dropdown on hover
 .page-header ul li:hover ul
