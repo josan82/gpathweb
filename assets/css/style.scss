@@ -46,10 +46,8 @@ $section-headings-color: #eb8a44;
   position:relative;
   
   @include small {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    font-size: 0.9rem;
+    position: static;
+    display: none;
   }
 }
 //List of btns
@@ -57,7 +55,6 @@ $section-headings-color: #eb8a44;
 {
   display: inline-block;
   @include small {
-    display: block;
     width: 100%;
     font-size: 0.9rem;
   }
@@ -83,7 +80,6 @@ $section-headings-color: #eb8a44;
   min-width: 200px;
   text-align: left;
   @include small {
-    display: block;
     width: 100%;
     font-size: 0.9rem;
   }
@@ -104,7 +100,6 @@ $section-headings-color: #eb8a44;
   text-decoration: none;
   padding: 2px 15px;
   @include small {
-    display: block;
     width: 100%;
     font-size: 0.9rem;
   }
