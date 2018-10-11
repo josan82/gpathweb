@@ -96,18 +96,18 @@ $section-headings-color: #eb8a44;
   text-decoration: none;
   //padding: 2px 15px;
   @include large {
-    padding: 2rem 1rem;
+    padding: 0.25rem;
   }
 
   @include medium {
-    padding: 0.2rem 0.4rem;
+    padding: 0.15rem;
     font-size: 0.9rem;
   }
 
   @include small {
     display: block;
     width: 100%;
-    padding: 0.2rem 0.4rem;
+    padding: 0.1rem;
     font-size: 0.9rem;
   }
 }
