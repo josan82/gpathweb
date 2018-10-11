@@ -42,12 +42,12 @@ $section-headings-color: #eb8a44;
 .page-header ul
 {
   list-style: none;
-  //margin-bottom: 1rem;
   position:relative;
   
   @include small {
     position: static;
     display: block;
+    width: 100%;
   }
 }
 //List of btns
