@@ -112,7 +112,7 @@ $section-headings-color: #eb8a44;
 {
   display: block;
   @include small {
-    position: fixed;
+    position: absolute;
     bottom: 1rem;
     display: block;
     width: 100%;
