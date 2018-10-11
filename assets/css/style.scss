@@ -60,6 +60,9 @@ $section-headings-color: #eb8a44;
   position:absolute;
   top:100%;
   padding:0;
+  @include small {
+    margin-bottom: 1rem;
+  }
 }
 //Elements of each menu btn
 .page-header ul ul li
@@ -69,17 +72,20 @@ $section-headings-color: #eb8a44;
   min-width: 200px;
   text-align: left;
   @include large {
-    padding: 0.25rem;
+    padding: 0.2rem 1rem;
   }
   @include medium {
-    padding: 0.15rem;
+    padding: 0.1rem 0.9rem;
     font-size: 0.9rem;
   }
   @include small {
     display: block;
     width: 100%;
-    padding: 0.1rem;
+    padding: 0.4rem 0.9rem;
     font-size: 0.9rem;
+    border-color: rgba(255, 255, 255, 0.2);
+    border-style: solid;
+    border-width: 1px;
   }
 }
 .page-header ul ul li:hover 
