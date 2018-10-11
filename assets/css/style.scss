@@ -11,7 +11,7 @@
 $header-bg-color: #3cc47c; //#8eba43;
 $header-bg-color-secondary: #1e392a; //#4b7447;
 $header-bottom-color: #e9c893; //#f9dc24;
-$header-heading-color: #e9c893; //#eb8a44;
+$header-heading-color: #eb8a44; //#e9c893;
 // Text
 $section-headings-color: #1e392a; //#eb8a44;
 
@@ -35,7 +35,6 @@ $section-headings-color: #1e392a; //#eb8a44;
   list-style: none;
   position:relative;
   @include small {
-    position: absolute;
     display: block;
     width: 100%;
   }
@@ -57,6 +56,7 @@ $section-headings-color: #1e392a; //#eb8a44;
     display: block;
     width: 100%;
     font-size: 0.9rem;
+    margin-bottom: 0.75rem;
   }
 }
 //Dropdown menus
