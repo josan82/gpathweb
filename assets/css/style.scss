@@ -47,7 +47,7 @@ $section-headings-color: #eb8a44;
   
   @include small {
     position: static;
-    display: none;
+    display: block;
   }
 }
 //List of btns
