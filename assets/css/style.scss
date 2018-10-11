@@ -11,7 +11,7 @@
 $header-bg-color: #3cc47c; //#8eba43;
 $header-bg-color-secondary: #1e392a; //#4b7447;
 $header-bottom-color: #e9c893; //#f9dc24;
-$header-heading-color: #eb8a44; //#e9c893;
+$header-heading-color: #e9c893; //#eb8a44;
 // Text
 $section-headings-color: #eb8a44; //#1e392a;
 
@@ -36,18 +36,16 @@ $section-headings-color: #eb8a44; //#1e392a;
     width: 100%;
   }
 }
-/*
 .btn
 {
   @include small {
     margin-bottom: 0.5rem;
-    margin-left: 0;
     + .btn{
+      margin-left: 0;
       margin-top: 0.5rem;
     }
   } 
 }
-*/
 //List of btns
 .page-header ul li
 {
@@ -90,6 +88,7 @@ $section-headings-color: #eb8a44; //#1e392a;
     font-size: 0.9rem;
   }
   @include small {
+    padding: 0.4rem 0.9rem;
     width: 100%;
     font-size: 0.9rem;
     text-align: center;
