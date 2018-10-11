@@ -62,6 +62,7 @@ $section-headings-color: #eb8a44;
   top:100%;
   padding:0;
   @include small {
+    bottom:100%;
     margin-bottom: 1rem;
   }
 }
