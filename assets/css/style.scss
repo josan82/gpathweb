@@ -1,11 +1,11 @@
 ---
 ---
-// Other color option
-// $header-bg-color: #882426;
-// $header-bg-color-secondary: #323030;
-// $header-bottom-color: #c29545;
-// $header-heading-color: #cdbea7;
-// $section-headings-color: #882426;
+// Other color options
+// $header-bg-color: #882426; #3cc47c;
+// $header-bg-color-secondary: #323030; #1e392a;
+// $header-bottom-color: #c29545; #828081;
+// $header-heading-color: #cdbea7; #e9c893;
+// $section-headings-color: #882426; #1e392a;
 
 // Headers
 $header-bg-color: #8eba43;
@@ -62,7 +62,6 @@ $section-headings-color: #eb8a44;
   top:100%;
   padding:0;
   @include small {
-    bottom:100%;
     margin-bottom: 1rem;
   }
 }
