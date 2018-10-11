@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to home page
 
 You can use the [editor on GitHub](https://github.com/josan82/gpathweb/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
 
