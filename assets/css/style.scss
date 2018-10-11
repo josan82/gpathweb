@@ -42,7 +42,10 @@ $section-headings-color: #eb8a44;
 {
   color: #eb8a44;
 }
- 
+.btn:hover
+{
+  color: #eb8a44;
+}
 //Menu
 .page-header ul
 {
@@ -59,7 +62,6 @@ $section-headings-color: #eb8a44;
 //Dropdown menus
 .page-header ul ul
 {
-  color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
@@ -77,15 +79,17 @@ $section-headings-color: #eb8a44;
   float: none;
   min-width: 200px;
 }
+//links
 .page-header ul ul a
 {
   color: #eb8a44;
   width: auto;
+  text-align: left;
   min-width: 200px;
-  padding: 10px 15px;
+  padding: 2px 15px;
 }
- .page-header ul ul a:hover {
-    color: rgba(255, 255, 255, 0.8);
+ .page-header ul ul li:hover {
+    color: #eb8a44;
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.3);
