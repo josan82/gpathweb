@@ -25,18 +25,6 @@ $section-headings-color: #eb8a44;
   background-color: $header-bg-color;
   background-image: linear-gradient(120deg, $header-bg-color-secondary 70%, $header-bg-color);
   border-bottom: 1vh solid $header-bottom-color;
-
-  @include large {
-    padding: 4rem 5rem;
-  }
-
-  @include medium {
-    padding: 2rem 3rem;
-  }
-
-  @include small {
-    padding: 1.5rem 1rem;
-  }
 }
 //Menu
 .page-header ul
@@ -80,9 +68,16 @@ $section-headings-color: #eb8a44;
   float: none;
   min-width: 200px;
   text-align: left;
+  @include large {
+    padding: 4rem 5rem;
+  }
+  @include medium {
+    padding: 2rem 3rem;
+  }
   @include small {
     width: 100%;
     font-size: 0.9rem;
+    padding: 1.5rem 1rem;
   }
 }
 .page-header ul ul li:hover 
@@ -125,9 +120,4 @@ $section-headings-color: #eb8a44;
     display: block;
     width: 100%;
   }
-}
-.page-header ul ul ul
-{
-  top:0;
-  left:100%;
 }
