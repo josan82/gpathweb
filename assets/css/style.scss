@@ -118,7 +118,10 @@ $section-headings-color: #eb8a44; //#1e392a;
 //Show dropdown on hover
 .page-header ul li:hover ul
 {
-  @include large, medium {
+  @include large {
+    display: block;
+  }
+  @include medium {
     display: block;
   }
   /*
