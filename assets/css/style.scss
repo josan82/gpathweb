@@ -8,13 +8,13 @@
 // $section-headings-color: #882426; #1e392a;
 
 // Headers
-$header-bg-color: #8eba43;
-$header-bg-color-secondary: #4b7447;
-$header-bottom-color: #f9dc24;
-$header-heading-color: #eb8a44;
+$header-bg-color: #3cc47c; //#8eba43;
+$header-bg-color-secondary: #1e392a; //#4b7447;
+$header-bottom-color: #828081; //#f9dc24;
+$header-heading-color: #e9c893; //#eb8a44;
 
 // Text
-$section-headings-color: #eb8a44;
+$section-headings-color: #1e392a; //#eb8a44;
 
 @import "{{ site.theme }}";
 
