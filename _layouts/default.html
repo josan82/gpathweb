@@ -23,18 +23,36 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <ul>
+      <ul id="menu">
         <li><a href="https://josan82.github.io/gpathweb/" class="btn">Home</a></li>
-        <li><a href="#" class="btn">The Project</a>
-          <ul>
+        <li><a href="#" class="btn">The Project ￬</a>
+          <ul class="hidden">
             <li><a href="#">Sub Menu 1</a></li>
             <li><a href="#">Sub Menu 2</a></li>
             <li><a href="#">Sub Menu 3</a></li>
           </ul>
         </li>
-        <li><a href="#" class="btn">For Users</a></li>
-        <li><a href="{{ site.github.repository_url }}" class="btn">For Developers</a></li>
-        <li><a href="https://www.insilichem.com/" class="btn">Contact</a></li>
+        <li><a href="#" class="btn">For Users ￬</a>
+          <ul class="hidden">
+            <li><a href="#">Sub Menu 1</a></li>
+            <li><a href="#">Sub Menu 2</a></li>
+            <li><a href="#">Sub Menu 3</a></li>
+          </ul>
+        </li>
+        <li><a href="{{ site.github.repository_url }}" class="btn">For Developers ￬</a>
+          <ul class="hidden">
+            <li><a href="#">Sub Menu 1</a></li>
+            <li><a href="#">Sub Menu 2</a></li>
+            <li><a href="#">Sub Menu 3</a></li>
+          </ul>
+        </li>
+        <li><a href="https://www.insilichem.com/" class="btn">Contact ￬</a>
+          <ul class="hidden">
+            <li><a href="#">Sub Menu 1</a></li>
+            <li><a href="#">Sub Menu 2</a></li>
+            <li><a href="#">Sub Menu 3</a></li>
+          </ul>
+        </li>
       </ul>
     </header>
 
