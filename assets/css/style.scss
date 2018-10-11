@@ -61,9 +61,11 @@ $section-headings-color: #1e392a; //#eb8a44;
   position:absolute;
   top:100%;
   padding:0;
+  /*
   @include small {
     margin-bottom: 1rem;
   }
+  */
 }
 //Elements of each menu btn
 .page-header ul ul li
@@ -79,6 +81,7 @@ $section-headings-color: #1e392a; //#eb8a44;
     padding: 0.1rem 0.9rem;
     font-size: 0.9rem;
   }
+  /*
   @include small {
     width: 100%;
     padding: 0.4rem 0.9rem;
@@ -88,6 +91,7 @@ $section-headings-color: #1e392a; //#eb8a44;
     border-style: solid;
     border-width: 1px;
   }
+  */
 }
 .page-header ul ul li:hover
 {
@@ -109,10 +113,12 @@ $section-headings-color: #1e392a; //#eb8a44;
 .page-header ul li:hover ul
 {
   display: block;
+  /*
   @include small {
     //position: absolute;
     //bottom: 0;
     display: block;
     width: 100%;
   }
+  */
 }
