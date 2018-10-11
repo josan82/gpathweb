@@ -58,7 +58,7 @@ $section-headings-color: #eb8a44;
   border-width: 1px;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
   display:none;
-  position:absolute;
+  //position:absolute;
   top:100%;
   padding:0;
   @include small {
