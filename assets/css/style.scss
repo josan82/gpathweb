@@ -84,10 +84,6 @@ $section-headings-color: #eb8a44; //#1e392a;
   display: block;
   text-align: left;
   @include small {
-    //padding: 0.4rem 0.9rem;
-    //width: 100%;
-    //font-size: 0.9rem;
-    //text-align: center;
     border-color: rgba(255, 255, 255, 0.2);
     border-style: solid;
     border-width: 1px;
@@ -119,9 +115,6 @@ $section-headings-color: #eb8a44; //#1e392a;
     width: 100%;
     font-size: 0.9rem;
     text-align: center;
-    //border-color: rgba(255, 255, 255, 0.2);
-    //border-style: solid;
-    //border-width: 1px;
   }
 }
 //Show dropdown on hover/active
