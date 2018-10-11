@@ -71,7 +71,7 @@ $section-headings-color: #eb8a44;
   display:none;
   position:absolute;
   top:100%;
-  //padding:0;
+  padding:0;
 }
 //Elements of each menu btn
 .page-header ul ul li
@@ -101,7 +101,7 @@ $section-headings-color: #eb8a44;
   text-decoration: none;
   //padding: 2px 15px;
   @include large {
-    padding: 0.25rem 0.5rem;
+    padding: 2rem 1rem;
   }
 
   @include medium {
