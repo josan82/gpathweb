@@ -33,7 +33,7 @@ $section-headings-color: #1e392a; //#eb8a44;
 .page-header ul
 {
   list-style: none;
-  position:relative;
+  //position:relative;
   
   @include small {
     //position: static;
