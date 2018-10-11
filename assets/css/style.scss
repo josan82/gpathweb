@@ -11,7 +11,7 @@
 $header-bg-color: #3cc47c; //#8eba43;
 $header-bg-color-secondary: #1e392a; //#4b7447;
 $header-bottom-color: #e9c893; //#f9dc24;
-$header-heading-color: #eb8a44; //#e9c893;
+$header-heading-color: #e9c893; //#eb8a44;
 // Text
 $section-headings-color: #eb8a44; //#1e392a;
 
@@ -112,7 +112,7 @@ $section-headings-color: #eb8a44; //#1e392a;
 {
   color: rgba(255, 255, 255, 0.7);
   width: 100%;
-  min-width: 200px;
+  //min-width: 200px;
   text-decoration: none;
 }
 //Show dropdown on hover/active
