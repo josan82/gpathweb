@@ -115,9 +115,4 @@ $section-headings-color: #eb8a44;
   @include medium {
     display: block;
   }
-  @include small {
-    position: static;
-    display: block;
-    width: 100%;
-  }
 }
