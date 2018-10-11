@@ -11,7 +11,7 @@
 $header-bg-color: #3cc47c; //#8eba43;
 $header-bg-color-secondary: #1e392a; //#4b7447;
 $header-bottom-color: #e9c893; //#f9dc24;
-$header-heading-color: #eb8a44; //#e9c893;
+$header-heading-color: #e9c893; //#eb8a44;
 // Text
 $section-headings-color: #eb8a44; //#1e392a;
 
@@ -115,7 +115,7 @@ $section-headings-color: #eb8a44; //#1e392a;
   min-width: 200px;
   text-decoration: none;
 }
-//Show dropdown on hover
+//Show dropdown on hover/active
 .page-header ul li:hover ul
 {
   @include large {
@@ -124,12 +124,10 @@ $section-headings-color: #eb8a44; //#1e392a;
   @include medium {
     display: block;
   }
-  /*
+}
+.page-header ul li:active ul
+{
   @include small {
-    //position: absolute;
-    //bottom: 0;
     display: block;
-    width: 100%;
   }
-  */
 }
