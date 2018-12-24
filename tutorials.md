@@ -20,5 +20,5 @@ They have been designed in order of difficulty, starting for a simple calculatio
 </div>
 
 ### List of tutorials
-0. Installation
-1. My first Gpath calculation
+1. [Installation](tutorials/tutorial1/tutorial1.md)
+2. My first Gpath calculation
